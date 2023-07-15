@@ -269,34 +269,59 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+    .header {
+        background-image: none;
+    }
+
 
     .skill-container,
     .resume-container,
-    .about-info-container {
+    .about-info-container,
+    .banner,
+    nav,
+    nav>ul {
         flex-direction: column;
 
     }
 
+    .banner .profile-pic {
+        width: 100%;
+    }
+
+    .banner,
     #what-i-do-description {
         padding: 20px;
     }
 
-    footer,
-    .about {
-        flex-direction: column;
-        padding: 10px;
-    }
+    nav>ul,
+    {
+    padding: 0px;
+}
 
-    .footer-colum {
-        width: 100%;
+footer,
+.about {
+    flex-direction: column;
+    padding: 10px;
+}
 
-    }
+.footer-colum {
+    width: 100%;
 
-    .contact input[type="text"],
-    .contact input[type="email"],
-    textarea {
-        width: 70%;
-    }
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    width: 70%;
+}
+
+.about {
+    margin-top: 74%;
+}
+
+.banner-title {
+    font-size: 59px;
+}
 }
 
 @media screen and (min-width: 576px) and (max-width:960px) {
@@ -315,5 +340,10 @@ textarea {
             flex-direction: column;
             padding: 10px;
         }
+
+
+
+        /*  */
+
 
     }
