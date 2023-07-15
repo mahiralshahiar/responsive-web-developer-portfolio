@@ -279,8 +279,10 @@ textarea {
     .about-info-container,
     .banner,
     nav,
-    nav>ul {
+    nav>ul,
+    .nav-title {
         flex-direction: column;
+        padding: 0%;
 
     }
 
@@ -322,6 +324,10 @@ textarea {
 .banner-title {
     font-size: 59px;
 }
+
+.btn-primary {
+    margin-bottom: 15px;
+}
 }
 
 @media screen and (min-width: 576px) and (max-width:960px) {
@@ -334,16 +340,25 @@ textarea {
             width: 100%;
 
         }
-
-
-        footer {
-            flex-direction: column;
-            padding: 10px;
-        }
-
-
-
-        /*  */
-
-
     }
+
+
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .btn-primary {
+        margin-bottom: 15px;
+    }
+
+    .banner .profile-pic {
+        width: 100%;
+    }
+
+    .header {
+
+        height: auto;
+    }
+
+}
