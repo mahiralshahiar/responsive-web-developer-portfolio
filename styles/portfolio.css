@@ -271,7 +271,8 @@ textarea {
 @media screen and (max-width: 576px) {
 
     .skill-container,
-    .resume-container {
+    .resume-container,
+    .about-info-container {
         flex-direction: column;
 
     }
@@ -280,7 +281,8 @@ textarea {
         padding: 20px;
     }
 
-    footer {
+    footer,
+    .about {
         flex-direction: column;
         padding: 10px;
     }
