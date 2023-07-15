@@ -269,7 +269,9 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
-    .skill-container {
+
+    .skill-container,
+    .resume-container {
         flex-direction: column;
 
     }
@@ -278,5 +280,38 @@ textarea {
         padding: 20px;
     }
 
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
 
+    .footer-colum {
+        width: 100%;
+
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 70%;
+    }
 }
+
+@media screen and (min-width: 576px) and (max-width:960px) {
+
+    .skill-container,
+    .resume-container {
+        flex-direction: column;
+
+        .footer-colum {
+            width: 100%;
+
+        }
+
+
+        footer {
+            flex-direction: column;
+            padding: 10px;
+        }
+
+    }
