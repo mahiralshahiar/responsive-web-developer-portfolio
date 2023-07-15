@@ -1,0 +1,282 @@
+/* common shared style */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+
+}
+
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.about {
+    padding: 80px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 130px 0px;
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    align-items: center;
+}
+
+nav-title {
+    color: #181818;
+    font-size: 45px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Header related style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(/images/header_bg.png), url('/images/developer.png');
+    ;
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    height: 109vh;
+
+
+
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 800px;
+}
+
+.banner .profile-pic {
+    width: 584px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    margin-top: 5px;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Main section styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main>section {
+    margin-top: 130px;
+}
+
+/* About section styles */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+.about-info {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+
+/* .info-description {
+    color: #181818;
+    font-weight: bold;
+} */
+.section-title {
+    text-align: left;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+/* Skill section */
+.skill-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+
+
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume section styles */
+
+.s-titile {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.resume-colum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.resume-item-title {
+
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
+
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 23px;
+    padding: 18px 35px;
+    color: #757575;
+    background: #FFF;
+    width: 100%;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+/* responsive styles */
+/* Mobile devices */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skill-container {
+        flex-direction: column;
+
+    }
+
+    #what-i-do-description {
+        padding: 20px;
+    }
+
+
+}
